@@ -51,19 +51,22 @@
         android:id="@+id/btnGuardar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Guardar" />
+        android:text="Guardar"
+        />
 
     <Button
         android:id="@+id/btnEditar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Editar" />
+        android:text="Editar"
+        android:onClick="editar"/>
 
     <Button
         android:id="@+id/btnBorrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Borrar"
+        android:onClick="borrar"
         />
 
 
